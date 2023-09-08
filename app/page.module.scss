@@ -33,9 +33,10 @@ $starThreeScrollDuration: 175s;
     transform: translateZ(100px);
 }
 
-.text {
-    color: white;
-}
+// .text {
+//     font-size: large;
+//     color: antiquewhite;
+// }
 
 @function create-stars($n) {
   $stars: "#{random($starFieldWidth)}px #{random($starFieldHeight)}px #FFF";
